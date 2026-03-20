@@ -103,7 +103,7 @@ For example:
 ros2 topic pub /ddsm115/brake std_msgs/msg/Bool "{data: true}" -1
 ```
 
-###Publisher topics
+### Publisher topics
 
 - /ddsm115/rpm_fb : as std_msgs/msg/Int16MultiArray, the node will be publishing rpm feedback of all detected motors as a list, so index 1 as ID1, index 2 as ID2, and so on. If an ID is missing in between, its index will remain 0.
 - /ddsm115/cur_fb : as std_msgs/msg/Float32MultiArray, the node will be publishing current feedback in amperes unit of all detected motors. The list index follows the same convention as rpm feedback.
@@ -147,7 +147,7 @@ This is the recommended way to start the system for teleoperation, because the u
 - /robot_state
 instead of dealing directly with low level motor topics.
 
-##Web Monitor
+## Web Monitor
 
 There is also a simple monitoring node to make the robot state visible from a web browser.
 ```sh
