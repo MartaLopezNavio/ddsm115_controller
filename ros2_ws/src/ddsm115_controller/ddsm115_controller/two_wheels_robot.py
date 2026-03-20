@@ -3,10 +3,7 @@
 	It assumes the left motor is ID1 as first index, and 
 	right motor is ID2 as second index of both /ddsm115/rpm_fb & rpm_cmd.
 
-	Developed by Rasheed Kittinanthapanya
-
-	https://github.com/rasheeddo/
-	https://www.youtube.com/@stepbystep-robotics
+	
 '''
 
 import rclpy
@@ -15,7 +12,6 @@ from std_msgs.msg import Int16MultiArray, Int8MultiArray, Float32MultiArray, Boo
 from geometry_msgs.msg import Twist
 from nav_msgs.msg import Odometry
 from sensor_msgs.msg import Joy
-import numpy as np
 import time
 from tf_transformations import quaternion_from_euler
 from geometry_msgs.msg import TransformStamped

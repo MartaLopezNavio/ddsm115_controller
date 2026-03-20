@@ -2,10 +2,6 @@
 	This code is to set motor ID.
 	ATTENTION! Please plug only one motor at a time.
 
-	Developed by Rasheed Kittinanthapanya
-
-	https://github.com/rasheeddo/
-	https://www.youtube.com/@stepbystep-robotics
 '''
 
 import rclpy

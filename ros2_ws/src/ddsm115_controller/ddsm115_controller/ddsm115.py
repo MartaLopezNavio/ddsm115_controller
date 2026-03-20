@@ -1,9 +1,6 @@
 '''
     This code is RS485 driver interface to control DDSM115 motor.
-    Developed by Rasheed Kittinanthapanya
-
-    https://github.com/rasheeddo/
-    https://www.youtube.com/@stepbystep-robotics
+   
 '''
 
 import serial
